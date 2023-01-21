@@ -1,8 +1,9 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:instagram/pages/home_page.dart';
-import 'package:instagram/pages/signin_page.dart';
+import 'package:myinsta/pages/signin_page.dart';
+
+import 'home_page.dart';
 
 class SplashPage extends StatefulWidget {
   static const id = 'Splash Page';

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:instagram/pages/home_page.dart';
-import 'package:instagram/pages/signup_page.dart';
+import 'package:myinsta/pages/signup_page.dart';
+
+import 'home_page.dart';
 
 class SignInPage extends StatefulWidget {
   static const id = 'sign in';

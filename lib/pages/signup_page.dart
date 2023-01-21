@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:instagram/pages/home_page.dart';
-import 'package:instagram/pages/signin_page.dart';
+import 'package:myinsta/pages/signin_page.dart';
 
 import '../services/utils_service.dart';
+import 'home_page.dart';
 
 class SignUpPage extends StatefulWidget {
   static const id = 'Sign up';
@@ -157,7 +157,7 @@ class _SignUpPageState extends State<SignUpPage> {
                       padding: const EdgeInsets.only(left: 10, right: 10),
                       height: 50,
                       decoration: BoxDecoration(
-                        // color: Colors.white.withOpacity(0.2),
+                        color: Colors.white.withOpacity(0.2),
                         borderRadius: BorderRadius.circular(7),
                       ),
                       child: const Center(

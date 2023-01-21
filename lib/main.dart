@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:instagram/pages/home_page.dart';
-import 'package:instagram/pages/signin_page.dart';
-import 'package:instagram/pages/signup_page.dart';
-import 'package:instagram/pages/splash_page.dart';
+import 'package:myinsta/pages/splash_page.dart';
+
+import 'pages/home_page.dart';
+import 'pages/signin_page.dart';
+import 'pages/signup_page.dart';
 
 void main() {
   runApp(const MyApp());
